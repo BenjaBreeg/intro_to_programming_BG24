@@ -1,0 +1,61 @@
+/* Benja Guzzetta */
+/*For the Body section, I changed the background color, the text color and the type of font used.*/
+body {
+    background-color: lightgreen;
+    color: teal;
+    font-family: sans-serif;
+  }
+  /*For the Nav section, I changed the height and width, I changed the float of any boxes not
+  aboslutely position to the left, I gave them a padding of 5px and a line-height of 30px.*/
+  nav {
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+  }
+  /*For the Paragraph section, I aligned the text to be centered in its container, (justify,)
+  I changed the right margin, the font size, color and style.*/
+  p{
+    text-align: justify;
+    margin-right: 200px;
+    font-size: 18px;
+    color: teal;
+    font-family: cursive;
+  }
+  /*For the Footer section that doesn't exist yet, I aligned the text to center, gave it a margin of 50px,
+  made a dashed border and changed the font family.*/
+  footer {
+    text-align: center;
+    margin-right: 50px;
+    border: 18px dashed gold;
+    font-family: serif;
+  }
+  /*For the meme image, I positioned it to the center of the page, I gave it a border and a shadow for visual appeal.*/
+  #uat_meme {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 12px solid gold;
+    border-radius: 10px;
+    box-shadow: 0px 40px 40px teal;
+  }
+  /*For the h1 section, I aligned the text to be centered, I underlined any text, gave it padding and a dotted border,
+  and changed the font family again.*/
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 14px;
+    border: 12px dotted gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*For the Header section, I again aligned text to center for visual appeal, colored the text, changed the font family,
+  underlined all text and made it bold.*/
+  header {
+    text-align: center;
+    color: teal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+  }
